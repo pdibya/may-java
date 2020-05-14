@@ -1,0 +1,28 @@
+package dibya;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author dibyajyotipatra
+ */
+public class NewClass {
+    public static void main(string[]args){
+       int choice;
+        System.out.println("Pick one 1.Hi\t 1.Hey\t 2.Hello\t");
+       Scanner sc = new scanner(system.in);
+      choice=sc.nextInt();
+      switch(choice)
+      {
+          case 1:System.out.println("You chosen Hi");
+          break;
+          case 2:System.out.println("You chosen Hey");
+          break;
+          case 3:System.out.println("You chosen Hello");
+          break;
+          default:System.out.println("Invalid choice");
+          break;
+      }
+    }
+    
+}
